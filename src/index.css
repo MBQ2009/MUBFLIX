@@ -11,7 +11,8 @@ body{
 button{
   background-color: purple;
   color: silver;
-  border-radius: 10px;
+  
+  size: 40px;
 }
 
 .carousel-item img{
@@ -20,3 +21,44 @@ button{
   width: 100%;
   object-fit: cover;
 }
+.footer-column a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #bbb;
+  text-decoration: none;
+  margin-bottom: 20px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer-column a svg {
+  color: #8b2bff;
+  font-size: 17px;
+}
+
+.footer-column a:hover {
+  color: #a020f0;
+  transform: translateX(5px);
+}
+li:hover {
+  color: #8B2BFF;
+   display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.testme{
+  height: 500px;
+  background-color: #087BFF;
+  width: 300px;
+}
+
+.testme h4{
+  display: none;
+}
+
+
