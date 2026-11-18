@@ -10,7 +10,10 @@ function Footer() {
   return (
     <footer className='bg-black text-white'>
       <Container>
-        <Row className='border-top border-secondary mt-3 py-4'>
+       <Row
+  className="mt-3 py-4"
+  style={{ borderTop: "1px solid #8B2BFF" }}
+>
           <Col>
             <img src='/Logo.png' alt='MovieNest logo' width={200} height='auto' />
             <p>DREAM • WATCH • ENJOY</p>
@@ -74,7 +77,10 @@ function Footer() {
           </Col>
         </Row>
 
-        <Row className='border-top border-secondary mt-3 py-4'>
+       <Row
+  className="mt-3 py-4"
+  style={{ borderTop: "1px solid #8B2BFF" }}
+>
           <Col>
             <h5>Stay updated with MovieNest</h5>
             <p>
@@ -97,7 +103,10 @@ function Footer() {
 
         </Row>
 
-        <Row className='border-top border-secondary mt-3 py-4'>
+        <Row
+  className="mt-3 py-4"
+  style={{ borderTop: "1px solid #8B2BFF" }}
+>
           <Col>&copy; {new Date().getFullYear()} MUBFLEX </Col>
         </Row>
       </Container>

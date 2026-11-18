@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Header() {
   return (
-    <Navbar expand="lg" className=" bg-black tc-white" >
+    <Navbar sticky="top"  expand="lg" className=" bg-black tc-white" >
       <Container>
        
         <Navbar.Brand href="#home">
