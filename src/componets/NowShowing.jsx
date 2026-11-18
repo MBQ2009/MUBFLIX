@@ -151,7 +151,8 @@ const NowShowing = () => {
   ];
 
   return (
-    <section className='now-showing bg-dark text-white p-5 px-3'>
+    <div className='comings'>
+    <section className='now-showing  text-white p-5 px-3'>
       <Container>
         <div className='para'>
           <p>Experience the Magic</p>
@@ -171,6 +172,7 @@ const NowShowing = () => {
         </Row>
       </Container>
     </section>
+    </div>
   );
 };
 

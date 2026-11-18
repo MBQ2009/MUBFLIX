@@ -4,9 +4,7 @@ a.nav-link {
 a.nav-link:hover{
 color: Purple;
 }
-body{
-  background-color: ;
-}
+
 .para{
   color: #bbb;
 }
@@ -120,5 +118,11 @@ opacity: 0;;
   text-align: center;
 }
 
+.coming{
+  background-image: linear-gradient(to right, black ,purple);
+}
 
+.comings{
+  background-image: linear-gradient(to left, black, purple);
+}
 

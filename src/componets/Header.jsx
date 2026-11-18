@@ -12,6 +12,7 @@ function Header() {
             <img src='/Logo.png' alt='' width={200} height="auto" />
 
         </Navbar.Brand>
+        
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" color='w' >
