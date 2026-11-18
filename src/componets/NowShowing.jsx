@@ -41,7 +41,7 @@ const NowShowing = () => {
   return (
     <section>
       <Container>
-        <div>
+        <div className='para'>
           <p>Experience the Magic</p>
           <h2>Now Showing</h2>
         </div>

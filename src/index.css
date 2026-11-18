@@ -5,7 +5,10 @@ a.nav-link:hover{
 color: Purple;
 }
 body{
-  background-color:#8B2BFF;
+  background-color: black;
+}
+.para{
+  color: #bbb;
 }
 
 button{
@@ -60,5 +63,3 @@ li:hover {
 .testme h4{
   display: none;
 }
-
-
