@@ -26,7 +26,7 @@ const MovieCard = ({movie}) => {
 </div>
         
            <div className='blac'>
-              <div className='bg-black text-light mt-2' style={{padding: '2px', height:"180px", width:"190px", }}>
+              <div className='bg-black text-light mt-2' style={{paddingl: '2px', height:"180px", width:"190px", }}>
                     <Card.Title>
                         {movie.title}
                     </Card.Title>

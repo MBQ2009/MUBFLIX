@@ -127,4 +127,14 @@ li:hover {
 }
 
 
-
+.page-banner{
+  width: 100%;
+  min-width: 350px;
+  background-size: cover;
+  display: flex;
+  background-position: center;
+  align-items: center;
+  position: relative;
+  color: #FFFFFF;
+  height: 300px;
+}

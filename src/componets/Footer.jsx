@@ -23,36 +23,35 @@ function Footer() {
 
           <Col>
             <h4>Quick Links</h4>
-            <ul>
-              <li>Home</li>
-              <li>Now Showing</li>
-              <li>Coming Soon</li>
-              <li>Cinema Locations</li>
-              <li>Showtimes</li>
-            </ul>
+           
+             <Nav.Link href='/'>Home</Nav.Link>
+             <Nav.Link href='/nowshowingsam'>Now Showing</Nav.Link>
+              <Nav.Link href='/comingsoon'>Coming Soon</Nav.Link>
+              <Nav.Link href='/cinemalocation'>Cinema Locations</Nav.Link>
+              <Nav.Link href='/showtime'>Showtimes</Nav.Link>
+          
           </Col>
 
           <Col>
             <h4>Explore</h4>
-            <ul>
-              <li>Movies</li>
-              <li>Genres</li>
-              <li>Top Rated</li>
-              <li>New Releases</li>
-              <li>My Watchlist</li>
-            </ul>
+               <Nav.Link href='/'>Movies</Nav.Link>
+               <Nav.Link href='/'>Genres</Nav.Link> 
+               <Nav.Link href='/'>Top Rated</Nav.Link>
+               <Nav.Link href='/'>New Releases</Nav.Link>
+               <Nav.Link href='/'>My Watchlist</Nav.Link>
+            
           </Col>
 
           <Col>
             <h4>Support</h4>
-            <ul>
-              <li>Help Centre</li>
-              <li>FAQs</li>
-              <li>Booking Assistance</li>
-              <li>Cancellation Policy</li>
-              <li>Contact Us</li>
-            </ul>
-          </Col>
+            
+                <Nav.Link href='/'>Help Centre</Nav.Link>
+                <Nav.Link href='/'>FAQs</Nav.Link>
+                <Nav.Link href='/'>Booking Assistance</Nav.Link>
+               <Nav.Link href='/'>Cancellation Policy</Nav.Link>
+              <Nav.Link href='/'>Contact Us</Nav.Link>
+            
+                      </Col>
 
           <Col>
             <div className='footer-column'>
