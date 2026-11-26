@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { TbCircleChevronRight } from 'react-icons/tb';
 import { BiMovie } from 'react-icons/bi';
-import MovieCard from './MovieCard';
+import MovieCard from '../MovieCard';
 
 const NowShowing = () => {
   const movies = [

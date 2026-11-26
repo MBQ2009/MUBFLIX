@@ -16,7 +16,7 @@ function Header() {
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto" color='w' >
+          <Nav className="me-auto" color='w' style={{ textAlign: 'end' }}>
             <Nav.Link href='/'>Home</Nav.Link>
 
             <NavDropdown title="Movies" id="basic-nav-dropdown">
@@ -27,7 +27,7 @@ function Header() {
     
             </NavDropdown>
              
-            <Nav.Link href="/movies">Movies</Nav.Link>
+            
             <Nav.Link href="/movie details">Movie Details</Nav.Link>
             <Nav.Link href="/book tickets">Book Tickets</Nav.Link>
             <Nav.Link href="/about us">About Us</Nav.Link>

@@ -1,23 +1,23 @@
 a.nav-link {
   color: white;
 }
-a.nav-link:hover{
-color: Purple;
+a.nav-link:hover {
+  color: Purple;
 }
 
-.para{
+.para {
   color: #bbb;
 }
 
-button{
+button {
   background-color: purple;
   color: white;
   border-radius: 10px;
-  
+
   size: 40px;
 }
 
-.carousel-item img{
+.carousel-item img {
   min-height: 400px;
   height: 300px;
   width: 100%;
@@ -44,8 +44,8 @@ button{
   transform: translateX(5px);
 }
 li:hover {
-  color: #8B2BFF;
-   display: flex;
+  color: #8b2bff;
+  display: flex;
   align-items: center;
   gap: 12px;
   text-decoration: none;
@@ -53,13 +53,13 @@ li:hover {
   transition: 0.3s;
 }
 
-.testme{
+.testme {
   height: 500px;
-  background-color: #087BFF;
+  background-color: #087bff;
   width: 300px;
 }
 
-.testme h4{
+.testme h4 {
   display: none;
 }
 
@@ -70,64 +70,64 @@ li:hover {
   background-color: black;
 }
 
+.movie-card img {
+  width: 100%;
+  height: 246px;
+  object-fit: contain;
+}
 
-  .movie-card img{
-    width: 100%;
-    height: 246px;
-    object-fit: contain;
+.movier-rating {
+  font-size: 12px;
+  padding: 9px;
+  z-index: 3px;
+}
 
-  }
+.movie-overlay {
+  position: absolute;
+  top: 35px;
+  width: 200px;
+  height: 80px;
+  opacity: 0;
+}
 
-  .movier-rating{
-    font-size: 12px;
-    padding: 9px;
-    z-index: 3px;
-  }
+.movie-card:hover .movie-overlay {
+  opacity: 1;
+}
 
-  .movie-overlay{
-    position: absolute;
-    top: 35px;
-    width: 200px;
-    height: 80px;
-  opacity: 0;;
+.butt {
+  border-radius: 50px;
+  background-color: #8b2bff;
+  color: #ffffff;
+}
 
-  }
+.butt:hover {
+  border-radius: 50px;
+  background-color: #090713;
+  color: #ffffff;
+}
 
-  .movie-card:hover .movie-overlay{
-    opacity: 1;
-  }
-
-  .butt{
-    border-radius: 50px;
-    background-color: #8B2BFF;
-    color: #FFFFFF;
-  }
-
-  .butt:hover{
-    border-radius: 50px;
-    background-color:#090713 ;
-    color: #FFFFFF;
-  }
-
-.col-lg-2{
+.col-lg-2 {
   width: 220px;
   padding-bottom: 50px;
 }
 
-.boy{
+.boy {
   text-align: center;
 }
 
-.coming{
-  background-image: linear-gradient(to right, black ,purple);
+.coming {
+  background-image: linear-gradient(to right, black, purple);
 }
 
-.comings{
+.para {
+  padding: 20px;
+}
+
+.comings {
   background-image: linear-gradient(to left, black, purple);
 }
 
-
-.page-banner{
+.page-banner {
   width: 100%;
   min-width: 350px;
   background-size: cover;
@@ -135,6 +135,97 @@ li:hover {
   background-position: center;
   align-items: center;
   position: relative;
-  color: #FFFFFF;
+  color: #ffffff;
   height: 300px;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+
+
+  .about-img {
+  width: 50%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.mission-card {
+  display: flex;
+  align-items: center;
+  background-color: #090713;
+  border-radius: 12px; 
+  min-height: 120px;
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+}
+
+.mission-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 35px;
+  flex-shrink: 0;
+}
+
+.mission-divider {
+  width: 3px;
+  height: 65px;
+  background: #ffb800;
+  margin: 0 15px;
+  flex-shrink: 0;
+}
+
+
+.mission-content  {
+  color: #e0eafc;
+  font-size: 12px;
+  margin: 0;
+}
+
+.choose-card{
+  border: 2px solid #a020f0;
+  border-radius: 20px;
+  padding: 20px;
+  height: 200px;
+  background-color: #e0eafc;
+  color: #090713;
+}
+
+.card-choose{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding: 20px;
+  background-color: #090713;
+  color: #e0eafc;
+}
+
+h2{
+  padding: 2%;
+  padding-bottom: 40px;
+}
+
+.our-story{
+  background-color: #090713;
+  color: #e0eafc;
+}
+
+.boy{
+  margin-left: 70px;
+}
+
+.about-background {
+  background-image: url("https://cdn.paris.fr/paris/2023/12/07/original-0930180eb0eb37a5650e2846dfb3af7e.jpg");
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 60px 40px;
+  border-radius: 15px;
 }
